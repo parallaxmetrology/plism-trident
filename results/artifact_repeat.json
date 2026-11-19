@@ -1,0 +1,30 @@
+{
+ "HR_AT2": {
+  "first_mm2": 20.5616,
+  "repeat_mm2": 20.5616,
+  "symmetric_difference_mm2": 0.0,
+  "field_decision_changes": 0,
+  "max_field_fraction_change": 0.0
+ },
+ "HR_GT450": {
+  "first_mm2": 40.9136,
+  "repeat_mm2": 40.9136,
+  "symmetric_difference_mm2": 0.0,
+  "field_decision_changes": 0,
+  "max_field_fraction_change": 0.0
+ },
+ "MY_AT2": {
+  "first_mm2": 149.1725,
+  "repeat_mm2": 149.1725,
+  "symmetric_difference_mm2": 0.0,
+  "field_decision_changes": 0,
+  "max_field_fraction_change": 0.0
+ },
+ "MY_GT450": {
+  "first_mm2": 119.6525,
+  "repeat_mm2": 119.6525,
+  "symmetric_difference_mm2": 0.0,
+  "field_decision_changes": 0,
+  "max_field_fraction_change": 0.0
+ }
+}

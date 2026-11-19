@@ -1,0 +1,259 @@
+{
+ "arm": "hest_artifacts",
+ "segmenter": "hest",
+ "device": "mps",
+ "seconds": 10453.486855983734,
+ "torch": "2.15.0",
+ "openslide": "4.0.1",
+ "python": "3.11.17",
+ "trident_commit": "c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a",
+ "levels": {
+  "GIVH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108796,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0,
+    16.000882482718048,
+    64.03578433377373
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GIVH_GT450.svs",
+   "artifact_level": 0
+  },
+  "GIV_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108598,
+    83395
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108783116859,
+    16.00072981890235,
+    64.0170710008833
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GIV_GT450.svs",
+   "artifact_level": 0
+  },
+  "GMH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108994,
+    83991
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108138718248,
+    16.000813593440107,
+    64.00935244296292
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GMH_GT450.svs",
+   "artifact_level": 0
+  },
+  "GM_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    124671,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.00004812782751,
+    16.000962649210628,
+    64.03430562473524
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GM_GT450.svs",
+   "artifact_level": 0
+  },
+  "GVH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    114749,
+    84189
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000041185852507,
+    16.002141935228728,
+    64.02804670525529
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GVH_GT450.svs",
+   "artifact_level": 0
+  },
+  "GV_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    82602
+   ],
+   "level_downsamples": [
+    1.0,
+    4.00010327677359,
+    16.002065749641403,
+    64.02066760107229
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "GV_GT450.svs",
+   "artifact_level": 0
+  },
+  "HRH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108994,
+    81609
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000061207342515,
+    16.001029152706295,
+    64.00411661082518
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "HRH_GT450.svs",
+   "artifact_level": 0
+  },
+  "HR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109590,
+    82998
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000084695440493,
+    16.001016389148347,
+    64.02725856697819
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "HR_GT450.svs",
+   "artifact_level": 0
+  },
+  "KRH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109987,
+    82800
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000545533895835,
+    16.000218213558334,
+    64.0287477480154
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "KRH_GT450.svs",
+   "artifact_level": 0
+  },
+  "KR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    82800
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000054850623469,
+    16.001097132826214,
+    64.02295001622365
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "KR_GT450.svs",
+   "artifact_level": 0
+  },
+  "LMH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    83395
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000126799971127,
+    16.00138493021685,
+    64.0055397208674
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "LMH_GT450.svs",
+   "artifact_level": 0
+  },
+  "LM_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    147095,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000040790797597,
+    16.000380724464264,
+    64.02313123982762
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "LM_GT450.svs",
+   "artifact_level": 0
+  },
+  "MY_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    131022,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000305296901235,
+    16.00085490962384,
+    64.02154652671288
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "MY_GT450.svs",
+   "artifact_level": 0
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "arm": "hest_repeat",
+ "segmenter": "hest",
+ "device": "mps",
+ "seconds": 709.0313980579376,
+ "torch": "2.15.0",
+ "openslide": "4.0.1",
+ "python": "3.11.17",
+ "trident_commit": "c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a",
+ "levels": {
+  "KR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76701
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000085137713244,
+    16.001907412293427,
+    32.00967494132733
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.9494470774091632,
+   "level": 1,
+   "custom_downsample": 1.0,
+   "real_path": "KR_AT2.svs"
+  },
+  "KR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    82800
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000054850623469,
+    16.001097132826214,
+    64.02295001622365
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "KR_GT450.svs"
+  }
+ }
+}

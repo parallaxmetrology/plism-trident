@@ -1,0 +1,246 @@
+{
+ "arm": "otsu",
+ "segmenter": "otsu",
+ "device": "cpu",
+ "seconds": 59.88068103790283,
+ "torch": "2.15.0",
+ "openslide": "4.0.1",
+ "python": "3.11.17",
+ "trident_commit": "c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a",
+ "levels": {
+  "GIVH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76863
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000137126106438,
+    16.00211279196368,
+    32.01007883188768
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9744628118819862,
+   "real_path": "GIVH_AT2.svs"
+  },
+  "GIV_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    105575,
+    80937
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000081544133913,
+    16.001420143492204,
+    32.00284028698441
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9745482798364784,
+   "real_path": "GIV_AT2.svs"
+  },
+  "GMH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    74908
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000059062093948,
+    16.0018330453142,
+    32.0096060943887
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9744973297621928,
+   "real_path": "GMH_AT2.svs"
+  },
+  "GM_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    78334
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108990939561,
+    16.00258868968878,
+    32.01091981907666
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9744040937346483,
+   "real_path": "GM_AT2.svs"
+  },
+  "GVH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    75567
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000137329130852,
+    16.002746969083383,
+    32.00796648410591
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9743845653695955,
+   "real_path": "GVH_AT2.svs"
+  },
+  "GV_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    76216
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000057926240586,
+    16.00199846588969,
+    32.00982976323168
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.974476918406368,
+   "real_path": "GV_AT2.svs"
+  },
+  "HRH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76539
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0001374565749765,
+    16.001701173833,
+    32.009269361555106
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9745136017750666,
+   "real_path": "HRH_AT2.svs"
+  },
+  "HR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    99599,
+    72305
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000087904370213,
+    16.001315656801246,
+    32.006172752577235
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9745611734022526,
+   "real_path": "HR_AT2.svs"
+  },
+  "KRH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    75893
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000842794794,
+    16.001685751602718,
+    32.00921837520639
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9745155047872824,
+   "real_path": "KRH_AT2.svs"
+  },
+  "KR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76701
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000085137713244,
+    16.001907412293427,
+    32.00967494132733
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9744881535185037,
+   "real_path": "KR_AT2.svs"
+  },
+  "LMH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76537
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000851935876245,
+    16.001492100029942,
+    32.00885112650701
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.974539400560913,
+   "real_path": "LMH_AT2.svs"
+  },
+  "LM_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    76867
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000135986190628,
+    16.001470898845433,
+    32.00541434363
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.9745420167312897,
+   "real_path": "LM_AT2.svs"
+  },
+  "MY_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    77189
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000849728572785,
+    16.001069510038928,
+    32.004659672651236
+   ],
+   "seg_mag": 1.25,
+   "wanted_downsample": 31.595576619273306,
+   "level": 2,
+   "custom_downsample": 1.974591548361847,
+   "real_path": "MY_AT2.svs"
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "at2_source_integrity": {
+  "GIVH_AT2.svs": {
+   "reduced_level_tiles": 9629,
+   "tiles_outside_fetched": 0,
+   "blocks": 89,
+   "hash_mismatches": 0
+  },
+  "GIV_AT2.svs": {
+   "reduced_level_tiles": 10442,
+   "tiles_outside_fetched": 0,
+   "blocks": 87,
+   "hash_mismatches": 0
+  },
+  "GMH_AT2.svs": {
+   "reduced_level_tiles": 9376,
+   "tiles_outside_fetched": 0,
+   "blocks": 88,
+   "hash_mismatches": 0
+  },
+  "GM_AT2.svs": {
+   "reduced_level_tiles": 9899,
+   "tiles_outside_fetched": 0,
+   "blocks": 87,
+   "hash_mismatches": 0
+  },
+  "GVH_AT2.svs": {
+   "reduced_level_tiles": 9533,
+   "tiles_outside_fetched": 0,
+   "blocks": 91,
+   "hash_mismatches": 0
+  },
+  "GV_AT2.svs": {
+   "reduced_level_tiles": 9642,
+   "tiles_outside_fetched": 0,
+   "blocks": 91,
+   "hash_mismatches": 0
+  },
+  "HRH_AT2.svs": {
+   "reduced_level_tiles": 9482,
+   "tiles_outside_fetched": 0,
+   "blocks": 84,
+   "hash_mismatches": 0
+  },
+  "HR_AT2.svs": {
+   "reduced_level_tiles": 8849,
+   "tiles_outside_fetched": 0,
+   "blocks": 94,
+   "hash_mismatches": 0
+  },
+  "KRH_AT2.svs": {
+   "reduced_level_tiles": 9641,
+   "tiles_outside_fetched": 0,
+   "blocks": 85,
+   "hash_mismatches": 0
+  },
+  "KR_AT2.svs": {
+   "reduced_level_tiles": 9482,
+   "tiles_outside_fetched": 0,
+   "blocks": 89,
+   "hash_mismatches": 0
+  },
+  "LMH_AT2.svs": {
+   "reduced_level_tiles": 9482,
+   "tiles_outside_fetched": 0,
+   "blocks": 88,
+   "hash_mismatches": 0
+  },
+  "LM_AT2.svs": {
+   "reduced_level_tiles": 9791,
+   "tiles_outside_fetched": 0,
+   "blocks": 86,
+   "hash_mismatches": 0
+  },
+  "MY_AT2.svs": {
+   "reduced_level_tiles": 9629,
+   "tiles_outside_fetched": 0,
+   "blocks": 86,
+   "hash_mismatches": 0
+  }
+ },
+ "field_side_um_AT2_then_GT450": [
+  128.12,
+  128.24
+ ],
+ "independent_rescore_point_sampling": {
+  "hest": {
+   "switched": 6,
+   "decision_mismatches": 0,
+   "fraction_mismatches_over_0_03": 0
+  },
+  "grandqc": {
+   "switched": 1,
+   "decision_mismatches": 0,
+   "fraction_mismatches_over_0_03": 0
+  },
+  "otsu": {
+   "switched": 28,
+   "decision_mismatches": 0,
+   "fraction_mismatches_over_0_03": 0
+  },
+  "hest_artifacts": {
+   "switched": 26,
+   "decision_mismatches": 0,
+   "fraction_mismatches_over_0_03": 0
+  }
+ },
+ "histoqc_context_recount": {
+  "fields": 156,
+  "switched": 52,
+  "AT2_only": 47,
+  "GT450_only": 5
+ }
+}

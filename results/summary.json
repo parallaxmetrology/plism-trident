@@ -1,0 +1,57 @@
+{
+ "hest": {
+  "fields": 156,
+  "switched": 6,
+  "AT2_only": 3,
+  "GT450_only": 3,
+  "mean_section_switch_fraction": 0.0385,
+  "area_ratio_median": 0.9775,
+  "area_ratio_min": 0.9411,
+  "area_ratio_max": 1.1441,
+  "GT450_smaller": 11,
+  "near_empty": []
+ },
+ "grandqc": {
+  "fields": 156,
+  "switched": 1,
+  "AT2_only": 0,
+  "GT450_only": 1,
+  "mean_section_switch_fraction": 0.0064,
+  "area_ratio_median": 0.9919,
+  "area_ratio_min": 0.975,
+  "area_ratio_max": 1.048,
+  "GT450_smaller": 11,
+  "near_empty": []
+ },
+ "otsu": {
+  "fields": 156,
+  "switched": 28,
+  "AT2_only": 18,
+  "GT450_only": 10,
+  "mean_section_switch_fraction": 0.1795,
+  "area_ratio_median": 0.9328,
+  "area_ratio_min": 0.5961,
+  "area_ratio_max": 8.4047,
+  "GT450_smaller": 12,
+  "near_empty": []
+ },
+ "hest_artifacts": {
+  "fields": 156,
+  "switched": 26,
+  "AT2_only": 10,
+  "GT450_only": 16,
+  "mean_section_switch_fraction": 0.1667,
+  "area_ratio_median": 0.9982,
+  "area_ratio_min": 0.8021,
+  "area_ratio_max": 1.9898,
+  "GT450_smaller": 7,
+  "near_empty": []
+ },
+ "context_histoqc_default": {
+  "switched": 52,
+  "AT2_only": 47,
+  "GT450_only": 5,
+  "usable_ratio_median": 0.065,
+  "source": "parallaxmetrology/plism-histoqc v1.0.0 tables + component_sizes.csv"
+ }
+}

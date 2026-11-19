@@ -1,0 +1,88 @@
+{
+ "arm": "hest_artifacts_repeat",
+ "segmenter": "hest",
+ "device": "mps",
+ "seconds": 1922.5235767364502,
+ "torch": "2.15.0",
+ "openslide": "4.0.1",
+ "python": "3.11.17",
+ "trident_commit": "c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a",
+ "levels": {
+  "HR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    99599,
+    72305
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000087904370213,
+    16.001315656801246,
+    32.006172752577235
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.9494470774091632,
+   "level": 1,
+   "custom_downsample": 1.0,
+   "real_path": "HR_AT2.svs",
+   "artifact_level": 1
+  },
+  "MY_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    77189
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000849728572785,
+    16.001069510038928,
+    32.004659672651236
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.9494470774091632,
+   "level": 1,
+   "custom_downsample": 1.0,
+   "real_path": "MY_AT2.svs",
+   "artifact_level": 1
+  },
+  "HR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109590,
+    82998
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000084695440493,
+    16.001016389148347,
+    64.02725856697819
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "HR_GT450.svs",
+   "artifact_level": 0
+  },
+  "MY_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    131022,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000305296901235,
+    16.00085490962384,
+    64.02154652671288
+   ],
+   "seg_mag": 10,
+   "wanted_downsample": 3.8153376573826785,
+   "level": 0,
+   "custom_downsample": 3.8153376573826785,
+   "real_path": "MY_GT450.svs",
+   "artifact_level": 0
+  }
+ }
+}
