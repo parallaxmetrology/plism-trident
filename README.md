@@ -41,6 +41,8 @@ TRIDENT at commit `c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a`, torch 2.15.0, Open
 - Images: PLISM, Original Whole Slide Images Dataset, version 1, Mieko Ochi, Daisuke Komura, Takumi Onoyama and Shumpei Ishikawa, https://doi.org/10.25452/figshare.plus.24988074.v1, CC BY 4.0. Contour overlays in `figs/` and the lab book are adapted from these images.
 - Segmentation: TRIDENT, Mahmood Lab, https://github.com/mahmoodlab/TRIDENT, CC BY-NC-ND 4.0. The regions in `regions/` are its outputs on the images above.
 
+Code in this repository is MIT licensed (see LICENSE). Images and contour overlays derived from PLISM keep its CC BY 4.0 terms; TRIDENT is not included and keeps its own licence.
+
 ## Scope
 
 One tissue array, two scanners from one vendor, 13 serial and differently stained sections from shared tissue. Descriptive only. Neither scanner nor any segmenter is taken as correct: a change between scanners says which tool is sensitive here, not which region is right.
