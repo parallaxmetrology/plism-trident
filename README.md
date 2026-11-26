@@ -2,14 +2,16 @@
 
 The same 13 H&E tissue-array sections, each scanned on Aperio AT2 and Aperio GT450, run through the tissue segmenters in [TRIDENT](https://github.com/mahmoodlab/TRIDENT) at their command-line defaults. The tissue is fixed; only the scanner changes. On 156 registered 128 µm fields (12 per section, the same physical location on both scans), a field counts as admitted on a scanner when at least half of it lies inside the tissue region. That rule is ours, not TRIDENT's.
 
-| segmenter | fields that switch (of 156) | AT2-only / GT450-only | median GT450/AT2 tissue area |
-|---|---|---|---|
-| HEST (default) | 6 | 3 / 3 | 0.978 |
-| GrandQC | 1 | 0 / 1 | 0.992 |
-| Otsu | 28 | 18 / 10 | 0.933 |
-| HEST + artifact removal | 26 | 10 / 16 | 0.998 |
+| segmenter | fields that switch (of 156) | AT2-only / GT450-only | median GT450/AT2 tissue area | switch, colour profile applied (v1.1.0) |
+|---|---|---|---|---|
+| HEST (default) | 6 | 3 / 3 | 0.978 | 0 |
+| GrandQC | 1 | 0 / 1 | 0.992 | 0 |
+| Otsu | 28 | 18 / 10 | 0.933 | 4 |
+| HEST + artifact removal | 26 | 10 / 16 | 0.998 | 53 |
 
 For context, HistoQC's default pipeline switched 52 of the same 156 fields ([parallaxmetrology/plism-histoqc](https://github.com/parallaxmetrology/plism-histoqc)).
+
+**v1.1.0 (25 November 2026): colour-profile rerun.** Both scanners embed an ICC profile in the file, and TRIDENT does not apply it. With each region converted from the scan's own profile to sRGB, and nothing else changed, the three segmenters switch 0, 0 and 4 fields; with artifact removal, 53, because the artifact step keeps less of the AT2 tissue. Details, gate and data in [colour-profile/](colour-profile/README.md). The v1.0 data, results and scripts are unchanged; `reproduce.py`, this README and `SHA256SUMS` were extended.
 
 Open **LABBOOK.html** for the full record: plan and addenda, technical gate, per-section tables, switched fields, contour overlays, secondary readings, deviations and scope. Discussion upstream: [mahmoodlab/TRIDENT#250](https://github.com/mahmoodlab/TRIDENT/issues/250).
 
@@ -19,7 +21,7 @@ With Python 3.10 or newer, numpy and shapely 2:
 
     python3 reproduce.py
 
-This reads the stored TRIDENT regions (`regions/`), the field polygons (`fields/`) and the recorded resolutions (`run_meta/`), and recomputes every field fraction and decision, every section area and the switch counts. It also confirms that the two repeat runs are identical to the first runs and that `PLAN.md` and the addenda match their recorded SHA-256. It prints `ALL MATCH` and exits 0 when everything agrees with `results/`. No slides, GPU or TRIDENT install are needed; it takes about 20 seconds.
+This reads the stored TRIDENT regions (`regions/`), the field polygons (`fields/`) and the recorded resolutions (`run_meta/`), and recomputes every field fraction and decision, every section area and the switch counts. It also confirms that the two repeat runs are identical to the first runs and that `PLAN.md` and the addenda match their recorded SHA-256. Since v1.1.0 it does the same for the colour-profile rerun in `colour-profile/`, including its gate. It prints `ALL MATCH` and exits 0 when everything agrees with the shipped results. No slides, GPU or TRIDENT install are needed; it takes about a minute.
 
 ## Contents
 
@@ -31,6 +33,8 @@ This reads the stored TRIDENT regions (`regions/`), the field polygons (`fields/
 - `scripts/`: the scripts as run. `01` downloads the GT450 files, `02` runs TRIDENT, `03` scores, `04` builds the lab book, `05` runs the second-pass checks, `06` draws the artifact overlay figure, `07` compares the artifact repeat. They expect the slides and a TRIDENT checkout at local paths, so they document the run rather than run here as they stand; `reproduce.py` is the portable check.
 - `LABBOOK.html`: self-contained record of the study. Its file list describes the original working folder (job folders, logs, issue drafts); this repository carries the parts listed here.
 - `figs/`: contour overlay figures. `weights.sha256`: SHA-256 of the three model weight files used.
+- `colour-profile/`: the v1.1.0 rerun with each scan's embedded colour profile applied: its own plan, regions, run metadata, results, scripts and lab book (see its README).
+- `SHA256SUMS`: SHA-256 of every file except itself and `.gitignore`.
 
 ## Running the segmentation yourself
 

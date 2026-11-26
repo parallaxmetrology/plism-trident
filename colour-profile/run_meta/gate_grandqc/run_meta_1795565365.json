@@ -1,0 +1,483 @@
+{
+ "arm": "gate_grandqc",
+ "segmenter": "grandqc",
+ "device": "mps",
+ "convert": false,
+ "read_region_calls": 750,
+ "profiles": [],
+ "seconds": 2750.905667066574,
+ "torch": "2.15.0",
+ "openslide": "4.0.1",
+ "python": "3.11.17",
+ "trident_commit": "c07bf25b9ad937bc6c8af8ea4ef16eb9979bbe8a",
+ "levels": {
+  "GIVH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76863
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000137126106438,
+    16.00211279196368,
+    32.01007883188768
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.233813605443176,
+   "real_path": "GIVH_AT2.svs"
+  },
+  "GIVH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108796,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0,
+    16.000882482718048,
+    64.03578433377373
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384454520870009,
+   "real_path": "GIVH_GT450.svs"
+  },
+  "GIV_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    105575,
+    80937
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000081544133913,
+    16.001420143492204,
+    32.00284028698441
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.234092674897799,
+   "real_path": "GIV_AT2.svs"
+  },
+  "GIV_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108598,
+    83395
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108783116859,
+    16.00072981890235,
+    64.0170710008833
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.3844772710776327,
+   "real_path": "GIV_GT450.svs"
+  },
+  "GMH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    74908
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000059062093948,
+    16.0018330453142,
+    32.0096060943887
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338318271593798,
+   "real_path": "GMH_AT2.svs"
+  },
+  "GMH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108994,
+    83991
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108138718248,
+    16.000813593440107,
+    64.00935244296292
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.3844647868073796,
+   "real_path": "GMH_GT450.svs"
+  },
+  "GM_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    78334
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000108990939561,
+    16.00258868968878,
+    32.01091981907666
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2337811908346104,
+   "real_path": "GM_AT2.svs"
+  },
+  "GM_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    124671,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.00004812782751,
+    16.000962649210628,
+    64.03430562473524
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.3844425745040407,
+   "real_path": "GM_GT450.svs"
+  },
+  "GVH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    75567
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000137329130852,
+    16.002746969083383,
+    32.00796648410591
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338950302795173,
+   "real_path": "GVH_AT2.svs"
+  },
+  "GVH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    114749,
+    84189
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000041185852507,
+    16.002141935228728,
+    64.02804670525529
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.38426685179139,
+   "real_path": "GVH_GT450.svs"
+  },
+  "GV_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    76216
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000057926240586,
+    16.00199846588969,
+    32.00982976323168
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338232057534164,
+   "real_path": "GV_AT2.svs"
+  },
+  "GV_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    82602
+   ],
+   "level_downsamples": [
+    1.0,
+    4.00010327677359,
+    16.002065749641403,
+    64.02066760107229
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.3842782032489636,
+   "real_path": "GV_GT450.svs"
+  },
+  "HRH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76539
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0001374565749765,
+    16.001701173833,
+    32.009269361555106
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338448068898025,
+   "real_path": "HRH_AT2.svs"
+  },
+  "HRH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    108994,
+    81609
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000061207342515,
+    16.001029152706295,
+    64.00411661082518
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384432664281085,
+   "real_path": "HRH_GT450.svs"
+  },
+  "HR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    99599,
+    72305
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000087904370213,
+    16.001315656801246,
+    32.006172752577235
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.233964181828376,
+   "real_path": "HR_AT2.svs"
+  },
+  "HR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109590,
+    82998
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000084695440493,
+    16.001016389148347,
+    64.02725856697819
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384434566275542,
+   "real_path": "HR_GT450.svs"
+  },
+  "KRH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    75893
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000842794794,
+    16.001685751602718,
+    32.00921837520639
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338467722374362,
+   "real_path": "KRH_AT2.svs"
+  },
+  "KRH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109987,
+    82800
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000545533895835,
+    16.000218213558334,
+    64.0287477480154
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384553514494959,
+   "real_path": "KRH_GT450.svs"
+  },
+  "KR_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76701
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000085137713244,
+    16.001907412293427,
+    32.00967494132733
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338291734134659,
+   "real_path": "KR_AT2.svs"
+  },
+  "KR_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    82800
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000054850623469,
+    16.001097132826214,
+    64.02295001622365
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384422534099566,
+   "real_path": "KR_GT450.svs"
+  },
+  "LMH_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    76537
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000851935876245,
+    16.001492100029942,
+    32.00885112650701
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2338609285912692,
+   "real_path": "LMH_AT2.svs"
+  },
+  "LMH_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    109391,
+    83395
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000126799971127,
+    16.00138493021685,
+    64.0055397208674
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384379648400204,
+   "real_path": "LMH_GT450.svs"
+  },
+  "LM_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    103583,
+    76867
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000135986190628,
+    16.001470898845433,
+    32.00541434363
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.2339934221770876,
+   "real_path": "LM_AT2.svs"
+  },
+  "LM_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    147095,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.000040790797597,
+    16.000380724464264,
+    64.02313123982762
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.3845292953242687,
+   "real_path": "LM_GT450.svs"
+  },
+  "MY_AT2.svs": {
+   "mpp": 0.2532,
+   "dims": [
+    101591,
+    77189
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000849728572785,
+    16.001069510038928,
+    32.004659672651236
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 39.49447077409163,
+   "level": 3,
+   "custom_downsample": 1.234022519784537,
+   "real_path": "MY_AT2.svs"
+  },
+  "MY_GT450.svs": {
+   "mpp": 0.2621,
+   "dims": [
+    131022,
+    84784
+   ],
+   "level_downsamples": [
+    1.0,
+    4.0000305296901235,
+    16.00085490962384,
+    64.02154652671288
+   ],
+   "seg_mag": 1,
+   "wanted_downsample": 38.15337657382678,
+   "level": 2,
+   "custom_downsample": 2.384458629824781,
+   "real_path": "MY_GT450.svs"
+  }
+ }
+}

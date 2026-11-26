@@ -1,0 +1,74 @@
+{
+ "gate_otsu": {
+  "fields": 156,
+  "switched": 28,
+  "AT2_only": 18,
+  "GT450_only": 10,
+  "mean_section_switch_fraction": 0.1795,
+  "area_ratio_median": 0.9328,
+  "area_ratio_min": 0.5961,
+  "area_ratio_max": 8.4047,
+  "GT450_smaller": 12,
+  "near_empty": []
+ },
+ "gate_grandqc": {
+  "fields": 156,
+  "switched": 1,
+  "AT2_only": 0,
+  "GT450_only": 1,
+  "mean_section_switch_fraction": 0.0064,
+  "area_ratio_median": 0.9919,
+  "area_ratio_min": 0.975,
+  "area_ratio_max": 1.048,
+  "GT450_smaller": 11,
+  "near_empty": []
+ },
+ "icc_otsu": {
+  "fields": 156,
+  "switched": 4,
+  "AT2_only": 2,
+  "GT450_only": 2,
+  "mean_section_switch_fraction": 0.0256,
+  "area_ratio_median": 1.0183,
+  "area_ratio_min": 0.9435,
+  "area_ratio_max": 1.0737,
+  "GT450_smaller": 2,
+  "near_empty": []
+ },
+ "icc_grandqc": {
+  "fields": 156,
+  "switched": 0,
+  "AT2_only": 0,
+  "GT450_only": 0,
+  "mean_section_switch_fraction": 0.0,
+  "area_ratio_median": 0.9949,
+  "area_ratio_min": 0.9874,
+  "area_ratio_max": 1.0085,
+  "GT450_smaller": 8,
+  "near_empty": []
+ },
+ "icc_hest": {
+  "fields": 156,
+  "switched": 0,
+  "AT2_only": 0,
+  "GT450_only": 0,
+  "mean_section_switch_fraction": 0.0,
+  "area_ratio_median": 1.0205,
+  "area_ratio_min": 0.9957,
+  "area_ratio_max": 1.0502,
+  "GT450_smaller": 2,
+  "near_empty": []
+ },
+ "icc_hest_artifacts": {
+  "fields": 156,
+  "switched": 53,
+  "AT2_only": 6,
+  "GT450_only": 47,
+  "mean_section_switch_fraction": 0.3397,
+  "area_ratio_median": 1.3243,
+  "area_ratio_min": 1.2706,
+  "area_ratio_max": 1.6213,
+  "GT450_smaller": 0,
+  "near_empty": []
+ }
+}

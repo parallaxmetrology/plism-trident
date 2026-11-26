@@ -1,0 +1,11 @@
+{
+ "passed": true,
+ "otsu": {
+  "scans": 26,
+  "nonzero": {}
+ },
+ "grandqc": {
+  "scans": 26,
+  "nonzero": {}
+ }
+}
